@@ -5,8 +5,11 @@ The project aims at bridging the gap between the availability of agricultural in
 Techniques Used:
 
 Database : MariaDB 
+
 Web Server : Apache
+
 Server Side Scripting language : Php
+
 Android Development environment: Android Studio using java and json object Android Studio is the official Integrated Development Environment (IDE) for Android app development, based on IntelliJ IDEA . On top of IntelliJ's powerful code editor and developer tools, Android Studio o ers even more features that enhance your productivity when building Android apps, such as:
 –	Extensive testing tools and frameworks
 –	Lint tools to catch performance, usability, version compatibility, and other problems
