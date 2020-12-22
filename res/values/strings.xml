@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">RegisterActivity</string>
+    <string-array name="region">
+        <item> Mumbai</item>
+        <item> Ratnagiri</item>
+        <item> Nagpur</item>
+        <!--<item> Maize</item>
+        <item> Sugarcane</item>
+        <item> Banana</item>
+        <item> sugarcane</item>
+        <item> corn</item>-->
+
+    </string-array>
+    <string-array name="season">
+        <item>March to June(Summer)</item>
+        <item>July to Oct(Rainy)</item>
+        <item>Oct to March(Winter)</item>
+    </string-array>
+
+    <string-array name="soiltype">
+        <item>Black Soil</item>
+        <item>Red Soil</item>
+        <item>Alluvial Soil</item>
+    </string-array>
+    <string-array name="landsize">
+        <item>1000-2000 sq.m</item>
+        <item>2000-3000 sq.m</item>
+        <item>3000-4000 sq.m</item>
+        <item>4000-5000 sq.m</item>
+
+    </string-array>
+    <string name="title_activity_view_crops">ViewCrops</string>
+</resources>
+

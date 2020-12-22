@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp" tools:context=".Notification_Fert"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="name"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="OUR RECOMMENDATION"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/slide_image"
+        android:layout_width="167dp"
+        android:layout_height="113dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:layout_toEndOf="@+id/et1"
+        android:src="@drawable/recommend1"
+        android:layout_marginBottom="100dp"/>
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/name"
+        android:layout_alignTop="@+id/bt1"
+        android:enabled="false"
+        android:hint="Enter time"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="175dp"
+        android:background="#d1ac5b"
+        android:onClick="bt1"
+        android:text="NOTIFY ME" />
+
+</RelativeLayout>

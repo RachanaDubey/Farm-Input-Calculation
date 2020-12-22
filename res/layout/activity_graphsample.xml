@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Graphsample"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="name"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TRACK YOUR PROFIT/MONTH"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/scatterPlot"
+        android:layout_width="match_parent"
+        android:layout_height="411dp"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:text="ADD DATA"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddPt"
+        android:layout_below="@+id/scatterPlot"/>
+
+    <EditText
+        android:background="@android:drawable/editbox_background"
+        android:textAlignment="center"
+        android:hint="ENTER MONTH IN NUMBER"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:layout_below="@+id/scatterPlot"
+        android:layout_alignParentStart="true"
+        android:id="@+id/numX"/>
+
+    <EditText
+        android:background="@android:drawable/editbox_background"
+        android:textAlignment="center"
+        android:hint="ENTER PROFIT/MONTH"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:layout_below="@+id/numX"
+        android:layout_alignParentStart="true"
+        android:id="@+id/numY"/>
+
+
+
+</RelativeLayout>

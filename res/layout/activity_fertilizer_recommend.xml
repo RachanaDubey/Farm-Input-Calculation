@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="10dp"
+    tools:context=".Feedback">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="name"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOU REQUEST,WE SUGGEST!"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/slide_image"
+        android:layout_width="167dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center"
+        android:src="@drawable/recommend" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/region"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="Region"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:id="@+id/season"
+            android:hint="Season"
+            android:inputType="text"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:enabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:id="@+id/soil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="Soil Type"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:id="@+id/land"
+            android:hint="Land Size"
+            android:inputType="text"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:enabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:id="@+id/crop"
+            android:hint="Crop"
+            android:inputType="text"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:enabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:id="@+id/fertilizer"
+            android:hint="Fertilizer"
+            android:inputType="text"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:enabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:id="@+id/quantity"
+            android:hint="Quantity"
+            android:inputType="text"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:enabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:id="@+id/dose"
+            android:hint="Dose"
+            android:inputType="text"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:enabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/btn_schedule"
+        android:background="#d1ac5b"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="SET REMINDER"
+        android:layout_marginBottom="30dp"/>
+
+</LinearLayout>
+</ScrollView>
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="email"
+        android:textSize="20sp"/>
+</LinearLayout>

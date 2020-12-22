@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rait.registeractivity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Krishi Niyojan"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".OnBoardScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:label="Krishi Niyojan" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true"
+            android:label="Krishi Niyojan" />
+        <activity
+            android:name=".SlideLayout"
+            android:exported="true"
+            android:label="Krishi Niyojan" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true"
+            android:label="Krishi Niyojan" />
+        <activity
+            android:name=".Feedback"
+            android:exported="true"
+            android:label="Krishi Niyojan" />
+        <activity
+            android:name=".Userhome"
+            android:exported="true"
+            android:label="Krishi Niyojan" />
+        <activity
+            android:name=".Startharvest"
+            android:exported="true"
+            android:label="Krishi Niyojan" />
+        <activity
+            android:name=".FertilizerRecommend"
+            android:exported="true"
+            android:label="Krishi Niyojan" />
+        <activity
+            android:name=".Feedback_View"
+            android:label="Krishi Niyojan" />
+        <activity
+            android:name=".Graphsample"
+            android:label="Krishi Niyojan" />
+        <activity
+            android:name=".Notification_Fert"
+            android:label="Krishi Niyojan" />
+        <activity
+            android:name=".NotificationActivity"
+            android:label="Krishi Niyojan" />
+
+        <receiver android:name=".AlarmReceiver" />
+
+        <activity
+            android:name=".WeatherPage"
+            android:label="Krishi Niyojan" />
+        <activity
+            android:name=".NearbyMarket"
+            android:label="Krishi Niyojan" />
+        <activity
+            android:name=".Aboutus"
+            android:label="Krishi Niyojan" />
+        <activity android:name=".adminpage" />
+        <activity android:name=".AdminHome" />
+        <activity android:name=".ViewCrops" />
+        <activity android:name=".UsersView" />
+        <activity android:name=".ViewHarvest"></activity>
+    </application>
+
+</manifest>

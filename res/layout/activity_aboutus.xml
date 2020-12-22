@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aboutus"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:text="name"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:gravity="center"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We are glad you visited for us!"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textStyle="bold"
+        android:text="Krishi Niyojan aims at bridging the gap between the availability of agricultural input and
+delivery of agricultural outputs and agricultural infrastructure.\n The applications of fertilizers
+and pesticides depend on the soil type, area, crop, pest infestation, etc.\n Most of the farmers do
+not know the right fertilizers/pesticides to be applied and its correct amount. They end up
+over-applying the inputs thus causing crop damage, water and soil pollution, high pesticides
+residue in food. \n The Android application which could identify the correct fertilizers/pesticides
+and calculate the correct amount to be applied."/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:text="Developed By:\t\n Rachana S. Dubey \n Tejal Kawale \n Priyanka Dubhalkar
+            \n\n\n Under the guidance of:  Dr. Amit Barve"
+        android:textSize="14sp"
+        android:textColor="#000000"/>
+
+</LinearLayout>
